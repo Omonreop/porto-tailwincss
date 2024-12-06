@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      .gradient {
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(0, 0, 0),
+          #c4bcbc
+        );
+      }
+      .gradient-skill {
+        background-image: linear-gradient(#272727, #a7a7a7);
+      }
+      .gradient-bottom {
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(0, 0, 0),
+          #c4bcbc
+        );
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/78b3b26c57.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Nav Start -->
+    <section class="w-screen mx-auto px-4">
+      <nav class="flex flex-wrap p-6 justify-between">
+        <div class="block lg:hidden">
+          <a
+            class="flex items-center px-3 py-2 rounded border border-black text-black hover:text-gray-600 hover:border-black"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </a>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a
+              href="#about"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4"
+            >
+              About me
+            </a>
+
+            <a
+              href="#recent"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4"
+            >
+              Recent work
+            </a>
+            <a
+              href="#contact"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div>
+          <a
+            href="#contact"
+            class="inline-block text-sm px-4 py-2 rounded text-gray-600 border border-gray-600 hover:border-transparent hover:text-white hover:bg-gray-700 mt-4 lg:mt-0"
+          >
+            Contact me
+          </a>
+        </div>
+      </nav>
+    </section>
+    <!-- Nav End -->
+
+    <!-- About Start -->
+    <section class="w-screen mx-auto py-4 gradient" id="about">
+      <div class="px-16 py-8 text-white text-center">
+        <h1 class="w-full text-5xl font-bold">About Me</h1>
+        <div class="mb-4 pt-3">
+          <div class="bg-white w-1/4 opacity-75 rounded h-1 mx-auto"></div>
+        </div>
+        <h2 class="text-3xl font-bold mb-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+          molestiae.
+        </h2>
+        <h3 class="text-lg mb-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          fugit nesciunt itaque molestiae molestias quidem, autem consequatur
+          nisi iste sint praesentium perferendis omnis eius vel.
+        </h3>
+        <div class="w-full">
+          <div class="px-4 py-4">
+            <img
+              src="img/profile.jpg"
+              class="shadow-lg rounded-full max-w-full mx-auto text-center w-48"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 bg-white py-4 px-4 md:py-8 md:px-8 m-16 rounded-lg"
+      >
+        <div class="max-w-sm shadow-lg px-4 py-4 white m-3 text-center">
+          <div class="p-4">
+            <i class="fas fa-laptop-code fa-5x text-blue-500 mb-6"></i>
+            <p class="font-bold text-lg md:text-xl mb-6">Programming</p>
+            <p class="text-black text-base mb-2">PHP</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">.NET</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">C++</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">Java</p>
+            <hr class="text-black mb-2" />
+          </div>
+          <div class="px-2 py-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg"
+            >
+              Lihat Portofolio
+            </button>
+          </div>
+        </div>
+        <div class="max-w-sm shadow-lg px-4 py-4 white m-3 text-center">
+          <div class="p-4">
+            <i class="fas fa-pencil-ruler fa-5x text-red-500 mb-6"></i>
+            <p class="font-bold text-lg md:text-xl mb-6">Design</p>
+            <p class="text-black text-base mb-2">CSS</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">Logo</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">Mobil</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">UI</p>
+            <hr class="text-black mb-2" />
+          </div>
+          <div class="px-2 py-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg"
+            >
+              Lihat Portofolio
+            </button>
+          </div>
+        </div>
+        <div class="max-w-sm shadow-lg px-4 py-4 white m-3 text-center">
+          <div class="p-4">
+            <i class="fas fa-database fa-5x text-green-500 mb-6"></i>
+            <p class="font-bold text-lg md:text-xl mb-6">Database</p>
+            <p class="text-black text-base mb-2">MySql</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">SQL Server</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">Oracle</p>
+            <hr class="text-black mb-2" />
+            <p class="text-black text-base mb-2">PostgreSQL</p>
+            <hr class="text-black mb-2" />
+          </div>
+          <div class="px-2 py-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg"
+            >
+              Lihat Portofolio
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- SKill start -->
+    <section class="w-screen mx-auto py-4 px-4 bg-white" id="skill">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-20">
+          <img src="img/skill.png" class="max-w-full rounded-lg shadow-lg" />
+        </div>
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="md:pr-12">
+            <h1
+              class="w-full my-2 text-5xl font-bold text-center text-gray-700"
+            >
+              Skill Framework
+            </h1>
+          </div>
+          <div class="mb-4">
+            <div
+              class="h-1 mx-auto bg-black w-2/3 opacity-75 my-0 rounded"
+            ></div>
+            <p class="mt-4 text-lg text-gray-600">
+              Berikut adalah item dan skala keahlian untuk framework :
+            </p>
+            <ul class="list-none mt-4">
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Codeigniter</p>
+                <div class="gradient-skill w-7/8"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Laravel</p>
+                <div class="gradient-skill w-3/4"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Bootstrap</p>
+                <div class="gradient-skill w-2/3"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Tailwindcss</p>
+                <div class="gradient-skill w-1/2"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKill End -->
+
+    <!-- Recent Work -->
+    <section class="py-8 bg-white container mx-auto px-8" id="recent">
+      <div class="text-center mb-8">
+        <h1 class="w-full my-2 text-5xl font-bold text-gray-700">
+          My Recent Work
+        </h1>
+        <div class="mb-4">
+          <div
+            class="h-1 mx-auto bg-black w-2/3 md:w-1/4 opacity-75 my-0 py-0 rounded"
+          ></div>
+        </div>
+        <p class="text-lg m-4 text-gray-600">
+          Berikut adalah pekerjaan terbaru Saya :
+        </p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 m-8">
+        <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+          <img src="img/project.jpg" class="w-full rounded-lg" />
+          <div class="px-2 py-2 text-center">
+            <p class="font-bold text-xl mb-2 text-gray-700">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae cupiditate quos vero deserunt rerum consequatur.
+            </p>
+          </div>
+          <div class="px-2 py-4 text-center">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+          <img src="img/project.jpg" class="w-full rounded-lg" />
+          <div class="px-2 py-2 text-center">
+            <p class="font-bold text-xl mb-2 text-gray-700">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae cupiditate quos vero deserunt rerum consequatur.
+            </p>
+          </div>
+          <div class="px-2 py-4 text-center">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+          <img src="img/project.jpg" class="w-full rounded-lg" />
+          <div class="px-2 py-2 text-center">
+            <p class="font-bold text-xl mb-2 text-gray-700">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae cupiditate quos vero deserunt rerum consequatur.
+            </p>
+          </div>
+          <div class="px-2 py-4 text-center">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+        <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+          <img src="img/project.jpg" class="w-full rounded-lg" />
+          <div class="px-2 py-2 text-center">
+            <p class="font-bold text-xl mb-2 text-gray-700">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae cupiditate quos vero deserunt rerum consequatur.
+            </p>
+          </div>
+          <div class="px-2 py-4 text-center">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg"
+            >
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Recent Work End -->
+
+    <!-- contact start -->
+    <section class="w-screen mx-auto py-4 gradient-bottom" id="contact">
+      <h1 class="w-full my-2 text-5xl font-bold text-center text-white">
+        Contact Me
+      </h1>
+      <div class="mb-4">
+        <div
+          class="h-1 mx-auto bg-white w-1/4 opacity-75 my-0 py-0 rounded"
+        ></div>
+      </div>
+      <div
+        class="container p-4 mb-6 w-full lg:w-1/2 shadow-lg rounded-lg bg-white mx-auto"
+      >
+        <form action="" class="p-5 lg:p-10 text-center">
+          <h4 class="text-2xl font-semibold">Want to contact me</h4>
+          <p class="mt-1 mb-4 text-gray-600">Please send message.</p>
+          <div class="w-full mb-4 mt-8">
+            <label for="" class="uppercase text-gray-600 text-xs font-bold"
+              >Full Name</label
+            >
+            <input
+              type="text"
+              class="mt-2 px-3 py-3 placeholder-gray-400 text-gray-600 bg-white rounded text-sm shadow w-full"
+              placeholder="Full Name"
+            />
+          </div>
+          <div class="w-full mb-4 mt-4">
+            <label for="" class="uppercase text-gray-600 text-xs font-bold"
+              >Email</label
+            >
+            <input
+              type="text"
+              class="mt-2 px-3 py-3 placeholder-gray-400 text-gray-600 bg-white rounded text-sm shadow w-full"
+              placeholder="Email"
+            />
+          </div>
+          <div class="w-full mb-4 mt-4">
+            <label for="" class="uppercase text-gray-600 text-xs font-bold"
+              >message</label
+            >
+            <textarea
+              name=""
+              rows="4"
+              cols="80"
+              class="mt-2 px-3 py-3 placeholder-gray-400 text-gray-600 bg-white rounded text-sm shadow w-full"
+              placeholder="Message. . ."
+              id=""
+            ></textarea>
+          </div>
+          <div class="mt-6">
+            <button
+              class="bg-white text-black text-sm font-bold uppercase px-6 py-3 rounded shadow hover:bg-gray-300 hover:shadow-lg"
+              type="button"
+            >
+              Send !
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <section class="w-screen mx-auto py-4 bg-white mt-8 mb-8">
+      <div class="text-center">
+        <!-- link & icon -->
+        <a href="#" class="text-black hover:text-gray-500 p-2">
+          <i class="fa-2x fab fa-github"></i>
+        </a>
+        <a href="#" class="text-black hover:text-gray-500 p-2">
+          <i class="fa-2x fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-black hover:text-gray-500 p-2">
+          <i class="fa-2x fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </section>
+    <!-- footer start -->
+  </body>
+</html>
